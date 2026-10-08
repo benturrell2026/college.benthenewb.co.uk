@@ -73,3 +73,14 @@ ul li a.active {
   border: 1px solid #191a19;
   border-radius: 8px;
 }
+
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
