@@ -32,20 +32,19 @@ li {
   font-family:Comic Sans MS, Comic Sans, cursive
 }
 
-ul {
+ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333333;
-  display: flex;
 }
 
-ul li {
+ul.topnav li {
   float: left;
 }
 
-ul li a {
+ul.topnav li a {
   display: block;
   color: white;
   text-align: center;
@@ -53,13 +52,15 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover {
+ul.topnav li a:hover {
   background-color: #111111;
 }
 
-ul li a.active {
+ul.topnav li a.active {
   background-color: #04AA6D;
 }
+
+ul.topnav li.right {float: right;}
 
 .lexend-regular {
   font-family: "Lexend", sans-serif;
@@ -92,3 +93,10 @@ ul li a.active {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+
