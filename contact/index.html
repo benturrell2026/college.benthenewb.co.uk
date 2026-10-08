@@ -25,11 +25,23 @@
             <li><a href="/contact" class="active">Contact</a></li>
             <li class="right"><a href="/tos">Terms and Conditions</a></li>
         </ul>
-        <h1 class="lexend-regular">Welcome to Rodd's Coffee</h1>
-        <p class="lexend-regular">Enjoy the best iced coffee from your local supermarket</p>
-        <a href="https://tinyurl.com/rodds-coffee-buy">
-            <p class="lexend-regular">Click here to buy</p>
-        </a>
+        <h1 class="lexend-regular">Contact Rodds</h1>
+        <p class="lexend-regular">Have questions or feedback? Get in touch with us!</p>
+
+        <p id="form-note">Practice form: nothing will be stored or sent.</p>
+        <form id="contact-form" aria-describedby="form-note">
+            <label for="visitor-name">Name (required)</label>
+            <input id="visitor-name" name="visitor-name" type="text" required>
+
+            <label for="visitor-email">Email (required)</label>
+            <input id="visitor-email" name="visitor-email" type="email" required>
+
+            <label for="visitor-message">Message (required)</label>
+            <textarea id="visitor-message" name="visitor-message" rows="5" required></textarea>
+
+            <button id="check-form" type="button">Send Message</button>
+            <p id="form-result" role="status"></p>
+        </form>
         <footer>
             <p class="lexend-regular">Copyright &copy; 2024 Rodd's Coffee</p>
         </footer>
