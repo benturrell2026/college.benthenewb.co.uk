@@ -9,6 +9,12 @@ h1 {
     font-size: 44px
 }
 
+h2 {
+    color:rgb(65, 105, 225);
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    font-size: 36px
+}
+
 p {
     color:rgb(240, 248, 255);
     font-family:Comic Sans MS, Comic Sans, cursive;
