@@ -1,3 +1,11 @@
+.centre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* default styles */
+
 body {
   margin: 0;
   background-color:#525252
@@ -69,6 +77,8 @@ ul.topnav li.right {float: right;}
   font-style: normal;
 }
 
+/* product page card */
+
 .cards {
   display: grid;
   grid-template-columns: 1fr;
@@ -83,6 +93,8 @@ ul.topnav li.right {float: right;}
   border-radius: 8px;
 }
 
+/* forms */
+
 label {
   display: block;
   margin-top: 1rem;
@@ -92,7 +104,7 @@ label {
 input, select, textarea {
   display: block;
   width: auto;
-  max-width: 25rem;
+  max-width: 30rem;
   font: inherit;
   padding: 0.6rem;
   border: 2px solid #182b3a;
@@ -119,11 +131,7 @@ button {
   cursor: pointer;
 }
 
-.centre {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 @media (min-width: 600px) {
   .cards {
