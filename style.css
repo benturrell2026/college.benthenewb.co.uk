@@ -86,20 +86,37 @@ ul.topnav li.right {float: right;}
 label {
   display: block;
   margin-top: 1rem;
+  font-weight: 600;
 }
 
 input, select, textarea {
+  display: block;
+  width: 100%;
+  max-width: 36rem;
+  font: inherit;
   padding: 0.6rem;
-  border-radius: 6px;
   border: 2px solid #182b3a;
+  border-radius: 6px;
 }
 
 input:focus, select:focus, textarea:focus {
   outline: 3px solid #6a3e93;
 }
 
+input:user-invalid, textarea:user-invalid {
+  border-color: #b3261e;
+  background: #fff1f0;
+}
+
 button {
+  margin-top: 1rem;
+  padding: 0.7rem 1rem;
+  font: inherit;
   background-color: #182b3a;
+  color: white;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 @media (min-width: 600px) {
