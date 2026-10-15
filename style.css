@@ -91,6 +91,7 @@ ul.topnav li.right {float: right;}
   padding: 1rem;
   border: 1px solid #191a19;
   border-radius: 8px;
+  max-width: 50rem;
 }
 
 /* forms */
