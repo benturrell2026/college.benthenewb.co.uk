@@ -119,6 +119,11 @@ button {
   cursor: pointer;
 }
 
+.centre {
+  align-items: center;
+  justify-content: center;
+}
+
 @media (min-width: 600px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
