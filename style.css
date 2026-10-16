@@ -150,4 +150,43 @@ button {
   ul.topnav li {float: none;}
 }
 
+@media (max-width: 600px) {
+ 
+    .navbar {
+        height: auto;
+        flex-wrap: wrap;
+    }
+ 
+    .nav-links {
+        flex-wrap: wrap;
+    }
+ 
+    .nav-links a {
+        padding: 12px 8px;
+    }
+ 
+    .terms {
+        margin-left: 0;
+    }
+ 
+    .contact-heading {
+        margin-top: 55px;
+    }
+ 
+    .contact-heading h1 {
+        font-size: 38px;
+    }
+ 
+    .contact-heading p {
+        font-size: 19px;
+    }
+ 
+    .contact-section {
+        margin-top: 60px;
+    }
+ 
+    .footer p {
+        font-size: 19px;
+    }
+}
 
