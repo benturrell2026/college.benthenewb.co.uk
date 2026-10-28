@@ -1,0 +1,197 @@
+.centre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* default styles */
+
+body {
+  margin: 0;
+  background-color:#525252
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  color:#4169e1;
+  font-family:Comic Sans MS, Comic Sans, cursive;
+  font-size: 44px
+}
+
+h2 {
+  color:rgb(65, 105, 225);
+  font-family:Comic Sans MS, Comic Sans, cursive;
+  font-size: 36px
+}
+
+p {
+  color:#f0f8ff;
+  font-family:Comic Sans MS, Comic Sans, cursive;
+  font-size: 32px
+}
+
+footer {
+  text-align:center;
+  color:rgb(187, 190, 194);
+  font-family:Comic Sans MS, Comic Sans, cursive;
+  font-size: 24px
+}
+
+li {
+  font-family:Comic Sans MS, Comic Sans, cursive
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover {
+  background-color: #111111;
+}
+
+ul.topnav li a.active {
+  background-color: #213a68;
+}
+
+ul.topnav li.right {float: right;}
+
+.lexend-regular {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* product page card */
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.card {
+  display: grid;
+  background-color: #333333;
+  padding: 1rem;
+  border: 1px solid #191a19;
+  border-radius: 8px;
+  max-width: 50rem;
+}
+
+/* forms */
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+input, select, textarea {
+  display: block;
+  width: auto;
+  max-width: 30rem;
+  font: inherit;
+  padding: 0.6rem;
+  border: 2px solid #182b3a;
+  border-radius: 12px;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: 3px solid #6a3e93;
+}
+
+input:user-invalid, textarea:user-invalid {
+  border-color: #b3261e;
+  background: #fff1f0;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.7rem 1rem;
+  font: inherit;
+  background-color: #242627;
+  color: white;
+  border: 0;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+
+
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+@media (max-width: 600px) {
+ 
+    .navbar {
+        height: auto;
+        flex-wrap: wrap;
+    }
+ 
+    .nav-links {
+        flex-wrap: wrap;
+    }
+ 
+    .nav-links a {
+        padding: 12px 8px;
+    }
+ 
+    .terms {
+        margin-left: 0;
+    }
+ 
+    .contact-heading {
+        margin-top: 55px;
+    }
+ 
+    .contact-heading h1 {
+        font-size: 38px;
+    }
+ 
+    .contact-heading p {
+        font-size: 19px;
+    }
+ 
+    .contact-section {
+        margin-top: 60px;
+    }
+ 
+    .footer p {
+        font-size: 19px;
+    }
+}
+
