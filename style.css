@@ -12,6 +12,10 @@ body {
   background-color:#525252;
   letter-spacing: 3px;
   word-spacing: 1px;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 img {
@@ -21,31 +25,23 @@ img {
 
 h1 {
   color:#4169e1;
-  font-family:Comic Sans MS, Comic Sans, cursive;
   font-size: 44px
 }
 
 h2 {
   color:rgb(65, 105, 225);
-  font-family:Comic Sans MS, Comic Sans, cursive;
   font-size: 36px
 }
 
 p {
   color:#f0f8ff;
-  font-family:Comic Sans MS, Comic Sans, cursive;
   font-size: 32px
 }
 
 footer {
   text-align:center;
   color:rgb(187, 190, 194);
-  font-family:Comic Sans MS, Comic Sans, cursive;
   font-size: 24px
-}
-
-li {
-  font-family:Comic Sans MS, Comic Sans, cursive
 }
 
 ul.topnav {
